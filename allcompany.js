@@ -1,13 +1,13 @@
-
+;();
 MobinWeaver.mobinAppStart(function() {
 
     (function(exports){
-
+    
 
         var allenteController=Spine.Controller.sub({
 
             init:function(){
-
+                return;
                 console.log("init letter");
                 this.onbackpressed();
                 this.renderletterlayer();
